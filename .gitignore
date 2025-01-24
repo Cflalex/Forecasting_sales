@@ -1,14 +1,12 @@
 
-# Исключаем большие файлы и временные папки
+# Исключаем большие файлы
 data/*
 !data/README.md
 models/*
 !models/README.md
-*.csv
-*.pkl
-*.h5
+
+# Исключаем временные файлы
 __pycache__/
 *.ipynb_checkpoints/
 .DS_Store
     
-data/raw/train.csv
